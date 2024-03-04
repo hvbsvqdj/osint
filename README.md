@@ -1,4 +1,4 @@
-Facebook_OSINT_Dump
+OSINT_Dump
 ====================
 
 Un outil Windows pour effectuer des enquêtes OSINT
